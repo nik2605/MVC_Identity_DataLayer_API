@@ -1,0 +1,80 @@
+﻿@model MVC_Identity_DataLayer.Models.UserModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<br />
+<br />
+<br />
+
+@Model.Name
+
+
+<br />
+<br />
+<br />
+
+<button id="btnDelete" onclick="OpenDeleteUserModel(@Model.UserId, 'Delete User', 'Click OK to delete current user')">Delete User</button>
+
+<div class="modal fade" id="deleteModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="lblTitleConfirmYesNo"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="lblMsgConfirmYesNo">
+
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button id="btnNoConfirmYesNo" type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button id="btnYesConfirmYesNo" type="button" class="btn btn-primary">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@section scripts
+{
+
+    <script>
+
+        function OpenDeleteUserModel(userid, header, content) {
+
+            var $confirm = $("#deleteModel");
+            $confirm.modal('show');
+            $confirm.find("#lblTitleConfirmYesNo").html(header);
+            $confirm.find("#lblMsgConfirmYesNo").html(content);
+            $confirm.find("#btnYesConfirmYesNo").off('click').click(function() {
+                $confirm.modal("hide");
+                DeleteUser(userid);
+            });
+            $confirm.find("#btnNoConfirmYesNo").off('click').click(function() {
+                $confirm.modal("hide");
+            });
+        }
+
+        var DeleteUser = function (id) {
+            $.ajax({
+                url: '../Home/DeleteUser',
+                method: "DELETE",
+                data: JSON.stringify({ 'userId': id }), // Added Stringify
+                contentType: 'application/json', // Added content type
+                success: function (data) {
+                    location.reload();
+                }
+            });
+        }
+
+    </script>
+
+}

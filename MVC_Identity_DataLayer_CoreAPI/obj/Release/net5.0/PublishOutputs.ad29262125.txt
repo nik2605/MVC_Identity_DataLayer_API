@@ -1,0 +1,16 @@
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\MVC_Identity_DataLayer_CoreAPI.exe
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\MVC_Identity_DataLayer_CoreAPI.dll
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\MVC_Identity_DataLayer_CoreAPI.deps.json
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\MVC_Identity_DataLayer_CoreAPI.runtimeconfig.json
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\MVC_Identity_DataLayer_CoreAPI.pdb
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\Net.Extensions.dll
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\Net.Json.dll
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\Net.Proxy.dll
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\Serialize.Linq.dll
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\poc\MVC_Identity_DataLayer\MVC_Identity_DataLayer_CoreAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
